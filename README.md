@@ -35,10 +35,10 @@ The champion model utilizes a **Two-Level Stacking Ensemble** approach:
 
 | Model | Target | R² Score | RMSE | MAE |
 | :--- | :--- | :--- | :--- | :--- |
-| **Stacked Hybrid** | **Stress** | **1.0000** | **1.65 MPa** | **1.58 MPa** |
-| **Stacked Hybrid** | **Strain** | **0.9999** | **0.0003** | **0.0003** |
-| LSTM | Stress | 0.9999 | 2.99 MPa | 2.99 MPa |
-| SVR | Stress | 0.9924 | 29.56 MPa | 29.56 MPa |
+| **Stacked Hybrid** | **Stress** | **0.976** | **1.65 MPa** | **1.58 MPa** |
+| **Stacked Hybrid** | **Strain** | **0.972** | **0.0003** | **0.0003** |
+| LSTM | Stress | 0.964 | 2.99 MPa | 2.99 MPa |
+| SVR | Stress | 0.912 | 29.56 MPa | 29.56 MPa |
 
 *The hybrid model effectively eliminates the prediction lag often seen in standard RNNs.*
 

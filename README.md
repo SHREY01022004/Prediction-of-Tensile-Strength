@@ -1,11 +1,7 @@
 # AI-Based Prediction of Tensile Strength for WAAM 9Cr-1Mo Steel
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0%2B-orange)
-![XGBoost](https://img.shields.io/badge/XGBoost-Latest-green)
-![Status](https://img.shields.io/badge/Status-Completed-success)
 
-## 📄 Project Overview
+## Project Overview
 
 This project presents a novel **Artificial Intelligence framework** to predict the anisotropic tensile strength (Stress & Strain) of **9Cr-1Mo steel** components fabricated via **Wire Arc Additive Manufacturing (WAAM)**.
 
@@ -13,7 +9,7 @@ By analyzing over **22,000 experimental data points**, this work addresses the c
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Comprehensive Dataset:** 22,771 time-series data points covering 6 scanning strategies (Base, In-Out, Out-In, Inclined, Longitudinal, Transverse).
 * **Novel Architecture:** A **Stacked Hybrid Model** combining **BiLSTM** (Bidirectional LSTM), **GRU** (Gated Recurrent Units), and **XGBoost**.
@@ -23,7 +19,7 @@ By analyzing over **22,000 experimental data points**, this work addresses the c
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 The champion model utilizes a **Two-Level Stacking Ensemble** approach:
 
@@ -35,7 +31,7 @@ The champion model utilizes a **Two-Level Stacking Ensemble** approach:
 
 ---
 
-## 📊 Results
+## Results
 
 | Model | Target | R² Score | RMSE | MAE |
 | :--- | :--- | :--- | :--- | :--- |
@@ -48,7 +44,7 @@ The champion model utilizes a **Two-Level Stacking Ensemble** approach:
 
 ---
 
-## 🛠️ Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 * Python 3.8+
@@ -76,7 +72,7 @@ The main logic is contained in `ai_powered_prediction_of_tensile_strength.py` (o
 
 ---
 
-## 📂 Directory Structure
+## Directory Structure
 
 ```text
 ├── data/
